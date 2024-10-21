@@ -10,3 +10,9 @@
 ## Author: fd83@duke.edu
 ##---------------------------------------------------------------------
 
+# Import packages
+import sys, os, arcpy 
+
+# Set input varible (Hard-wired)
+inputFile = 'V:/ARGOSTracking/Data/ARGOSData/997dg.txt'
+outputFC = 'V:/ARGOSTracking/Scratch/ARGOStrack.shp'
